@@ -13,7 +13,8 @@ int temp = *a;
 }
 
 /**
- * bubble_sort - Sorts an array of integers in ascending order using Bubble sort.
+ * bubble_sort - Sorts an array of integers
+ * in ascending order using Bubble sort.
  * @array: Pointer to the array to be sorted.
  * @size: Size of the array.
  */

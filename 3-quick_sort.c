@@ -1,7 +1,8 @@
 #include "sort.h"
 
 /**
- * lomuto_partition - Partitions the array using the Lomuto partition scheme.
+ * lomuto_partition - Partitions the array using
+ * the Lomuto partition scheme.
  * @array: The array to be partitioned.
  * @low: The low index of the partition.
  * @high: The high index of the partition.

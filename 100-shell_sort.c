@@ -1,7 +1,8 @@
 #include "sort.h"
 
 /**
- * shell_sort - Sorts an array of integers in ascending order using Shell sort.
+ * shell_sort - Sorts an array of integers in
+ * ascending order using Shell sort.
  * @array: The array to be sorted.
  * @size: The size of the array.
  */
@@ -26,18 +27,15 @@ for (i = gap; i < (int)size; i++)
 {
 temp = array[i];
 j = i;
-
 while (j >= gap && array[j - gap] > temp)
 {
 array[j] = array[j - gap];
 j -= gap;
 }
-
 array[j] = temp;
 }
 
 gap = (gap - 1) / 3;
-
 print_array(array, size);
 }
 }

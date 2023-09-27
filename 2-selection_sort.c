@@ -13,7 +13,6 @@ if (array == NULL || size < 2)
 {
 return;
 }
-
 for (i = 0; i < size - 1; i++)
 {
 min_idx = i;
@@ -24,7 +23,6 @@ if (array[j] < array[min_idx])
 min_idx = j;
 }
 }
-
 if (min_idx != i)
 {
 int temp = array[i];

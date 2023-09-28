@@ -34,5 +34,6 @@ void swap_nodes(listint_t **list, listint_t **a, listint_t **b);
 void counting_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void siftDown(int *array, size_t index, size_t max);
+void quick_sort_hoare(int *array, size_t size);
 
 #endif
